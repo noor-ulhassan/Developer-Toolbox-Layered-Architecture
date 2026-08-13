@@ -14,7 +14,7 @@ const config = {
 
   cors: {
     origin: process.env.CORS_ORIGIN || "*",
-    credentiala: true,
+    credentials: true,
   },
 };
 
